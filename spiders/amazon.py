@@ -59,29 +59,26 @@ queries = [
     # Outdoor Clothing
     # "Outdoor Jackets",
     # "Hiking Boots",
-    "Rain Gear",
-    "Winter Coats",
+    # "Rain Gear",
+    # "Winter Coats",
 
     # Formalwear
-    "Suits",
-    "Formal Dresses",
-    "Tuxedos",
+    # "Suits",
+    # "Formal Dresses",
+    # "Tuxedos",
 
     # Vintage Clothing
-    "Vintage Dresses",
-    "Retro T-Shirts",
-    "Vintage Accessories",
+    # "Vintage Dresses",
+    # "Retro T-Shirts",
+    # "Vintage Accessories",
 
     # Swimwear
-    "Men's Swimwear",
-    "Women's Swimwear"
+    # "Men's Swimwear",
+    # "Women's Swimwear"
 ]
 
 
-API = 'a8935fe32852c87c18aa39775d2f9255'
-# '4e1fe28d930499c7900ec2aa11dcc184'
-# 'de9c3de4c267432172db09464bb67e6b'
-# 'b876a75ea4a1b1dfdf74171a46f6f993'
+API = 'api_key'
 def get_url(url):
     payload = {'api_key': API, 'url': url, 'country_code': 'us'}
     proxy_url = 'http://api.scraperapi.com/?' + urlencode(payload)
